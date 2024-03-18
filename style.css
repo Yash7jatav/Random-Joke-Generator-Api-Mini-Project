@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #fab22e;
+    height: 100vh;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.heading{
+    background-color: black;
+    display: inline;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.container{
+    min-height: 55vh;
+    width: 80vmin;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.wrapper{
+    margin: auto;
+}
+
+.wrapper span,p,button {
+    margin-top: 1rem;
+}
+
+.emoji {
+    font-size: 5rem;
+}
+
+.joke{
+    color: #fff;
+    font-size: 1rem;
+    word-wrap: break-word;
+    margin: 0 2rem 0 2rem;
+    line-height: 2rem;
+}
+
+.btn{
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    padding: 1rem;
+    background-color: #fab22e;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+} 
+
+
+
+
+
